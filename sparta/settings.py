@@ -80,7 +80,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "sparta",
         "USER": "root",
-        "PASSWORD": "!Khs1405031",
+        "PASSWORD": "1405031",
         "HOST": "localhost",
         "PORT": "3306",
     }
