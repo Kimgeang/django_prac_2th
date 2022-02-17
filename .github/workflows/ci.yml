@@ -4,18 +4,11 @@ on:
   push:
 
 jobs:
-name: Django CI
-
-on:
-  push:
-
-jobs:
   ci:
-
     env:
       DB_DATABASE: sparta
       DB_USER: root
-      DB_PASSWORD: '!Khs1405031'
+      DB_PASSWORD: !Khs1405031
 
     runs-on: ubuntu-latest
     steps:
